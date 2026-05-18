@@ -1,2 +1,4 @@
 # Brain-Tumors-Classification
 Classification of Brain Tumors on MRI Using Deep Learning Models: A Comparison Between ViT and ConvNeXt.
+
+Este trabajo compara el desempeño de dos arquitecturas de aprendizaje profundo para la clasificación de tumores cerebrales en imágenes de resonancia magnética (MRI): Vision Transformer (ViT) y ConvNeXt. Se aplica fine-tuning sobre los modelos preentrenados google/vit-base-patch16-224 y facebook/convnext-base-224 disponibles en Hugging Face Hub, utilizando el Brain Tumor MRI Classification Dataset (4 clases: glioma, meningioma, tumor pituitario y sin tumor). Se describe la metodología de preprocesamiento, augmentation, estrategia de validación cruzada e hiperparámetros. Los resultados se evalúan mediante accuracy, F1-score macro, precisión, recall y AUC-ROC.
