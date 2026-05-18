@@ -1,0 +1,41 @@
+{
+  "dir_splits": "/content/drive/MyDrive/Deep Learning/deep_learning_tumor_mri/brain_tumor_splits",
+  "clases": [
+    "glioma",
+    "meningioma",
+    "notumor",
+    "pituitary"
+  ],
+  "semilla": 42,
+  "img_size": 224,
+  "media_norm": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "desv_norm": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "conteo_splits": {
+    "train": {
+      "glioma": 280,
+      "meningioma": 280,
+      "notumor": 280,
+      "pituitary": 280
+    },
+    "val": {
+      "glioma": 60,
+      "meningioma": 60,
+      "notumor": 60,
+      "pituitary": 60
+    },
+    "test": {
+      "glioma": 60,
+      "meningioma": 60,
+      "notumor": 60,
+      "pituitary": 60
+    }
+  }
+}
